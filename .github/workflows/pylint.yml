@@ -19,4 +19,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-         pylint -s y newscrawler/spiders -d R0801,C0301
+         pylint -s y * -d R0801,C0301
