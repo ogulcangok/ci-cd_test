@@ -9,7 +9,7 @@ import scrapy
 
 class NewsItem(scrapy.Item):
     """
-    Item fields
+    Item fields of the article
     """
     link = scrapy.Field()
     lang = scrapy.Field()
