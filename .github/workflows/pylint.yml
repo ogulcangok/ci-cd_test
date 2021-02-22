@@ -19,4 +19,4 @@ jobs:
         pip install pylint scrapy
     - name: Analysing the code with pylint
       run: |
-         pylint -s y * -d R0801,C0301 --ignore=README.md,LICENSE
+         pylint -s y * -d R0801,C0301 --ignore=README.md,LICENSE,requirements.txt
