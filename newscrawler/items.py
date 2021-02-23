@@ -19,3 +19,4 @@ class NewsItem(scrapy.Item):
     title = scrapy.Field()
     intro = scrapy.Field()
     content = scrapy.Field()
+    category = scrapy.Field()
