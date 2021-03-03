@@ -7,7 +7,7 @@ import scrapy
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors.lxmlhtml import LxmlLinkExtractor
 from scrapy.selector import Selector
-from newscrawler.items import NewsItem
+from kizlarsoruyor.items import NewsItem
 
 
 class KizlarSpider(CrawlSpider):

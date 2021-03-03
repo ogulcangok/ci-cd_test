@@ -4,14 +4,14 @@
 
 from scrapy.exceptions import CloseSpider
 from scrapy.spiders import Spider, Request
-from newscrawler.items import NewsItem
+from ..items import NewsItem
 
 
 class EksiScraper(Spider):
     """
     Spider class to get articles from eksisozluk.com
     """
-    name = "eksi_sozluk"
+    name = "eksisozluk"
 
     allowed_domains = ["eksisozluk.com"]
 

@@ -10,6 +10,6 @@
 from itemadapter import ItemAdapter
 
 
-class NewscrawlerPipeline:
+class EksicrawlerPipeline:
     def process_item(self, item, spider):
         return item

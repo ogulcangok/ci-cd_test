@@ -8,10 +8,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'newscrawler'
+BOT_NAME = 'kizlarsoruyor'
 
-SPIDER_MODULES = ['newscrawler.spiders']
-NEWSPIDER_MODULE = 'newscrawler.spiders'
+SPIDER_MODULES = ['kizlarsoruyor.spiders']
+NEWSPIDER_MODULE = 'kizlarsoruyor.spiders'
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
 
